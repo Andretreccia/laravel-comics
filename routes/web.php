@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    /* $navlinks = config('data')['navlinks']; */
     return view('welcome');
 });

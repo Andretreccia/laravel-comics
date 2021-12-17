@@ -1,1 +1,29 @@
 //
+
+@use 'bootstrap';
+
+$color_primary : #0282f9;
+
+/* #site_header */
+#site_header{
+    .banner{
+        background-color: $color_primary;
+    }
+   nav{
+       .container{
+           ul{
+               li{
+                   margin: 10px;
+               }
+           }
+           .nav_search{
+               border-bottom: 2px solid $color_primary;
+                input{
+                    border: none;
+                    text-align: end;
+                }
+           }
+       }
+   }
+}
+/* /#site_header */
