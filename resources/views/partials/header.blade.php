@@ -45,7 +45,7 @@
             </ul>
             <div class="nav_search">
                 <input type="text" placeholder="Search">
-                O
+                Q
             </div>
         </div>
     </nav>
