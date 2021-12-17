@@ -3,27 +3,73 @@
 @use 'bootstrap';
 
 $color_primary : #0282f9;
+$background_sec : #1c1c1c;
+body{
+     font-family: "Greta Sans Medium","Greta Sans Regular",Arial,sans-serif;
+}
 
-/* #site_header */
 #site_header{
     .banner{
         background-color: $color_primary;
     }
-   nav{
-       .container{
-           ul{
-               li{
-                   margin: 10px;
-               }
-           }
-           .nav_search{
-               border-bottom: 2px solid $color_primary;
+    nav{
+        .container{
+            ul{
+                height: 103px;
+                display: flex;
+                line-height: 90px;
+                li{
+                    margin: 10px;
+                    height: 100%;
+                    border-bottom: 4px solid transparent;
+                    a{
+                        font-weight: bold;
+                    }
+                    &:hover{
+                        border-bottom: 4px solid $color_primary;
+                    }
+                }
+            }
+            .nav_search{
+                border-bottom: 2px solid $color_primary;
                 input{
                     border: none;
                     text-align: end;
                 }
-           }
-       }
-   }
+            }
+        }
+    }
 }
-/* /#site_header */
+/* #site_header */
+
+#site_main{
+    background: $background_sec;
+    .jumbotron{
+        height: 400px;
+        img{
+           height: 400px;
+            width: 100%;
+            object-fit: cover;
+            object-position: top
+        };
+    }
+    .card{
+        border: none;
+        background: transparent;
+        img{
+             height: 160px;
+        width: 160px;
+        object-fit: cover;
+        object-position: top;
+        }
+        h4{
+            margin-top: 12px;
+        font-size: 12px;
+        color: lightgrey;
+        font-weight: 400;
+        }
+    }
+}
+
+/* #site_main */
+

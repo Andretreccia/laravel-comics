@@ -11243,12 +11243,28 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/* #site_header */
+body {
+  font-family: "Greta Sans Medium", "Greta Sans Regular", Arial, sans-serif;
+}
+
 #site_header .banner {
   background-color: #0282f9;
 }
+#site_header nav .container ul {
+  height: 103px;
+  display: flex;
+  line-height: 90px;
+}
 #site_header nav .container ul li {
   margin: 10px;
+  height: 100%;
+  border-bottom: 4px solid transparent;
+}
+#site_header nav .container ul li a {
+  font-weight: bold;
+}
+#site_header nav .container ul li:hover {
+  border-bottom: 4px solid #0282f9;
 }
 #site_header nav .container .nav_search {
   border-bottom: 2px solid #0282f9;
@@ -11258,4 +11274,38 @@ textarea.form-control-lg {
   text-align: end;
 }
 
-/* /#site_header */
+/* #site_header */
+#site_main {
+  background: #1c1c1c;
+}
+#site_main .jumbotron {
+  height: 400px;
+}
+#site_main .jumbotron img {
+  height: 400px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+#site_main .card {
+  border: none;
+  background: transparent;
+}
+#site_main .card img {
+  height: 160px;
+  width: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+#site_main .card h4 {
+  margin-top: 12px;
+  font-size: 12px;
+  color: lightgrey;
+  font-weight: 400;
+}
+
+/* #site_main */
