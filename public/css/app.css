@@ -11258,13 +11258,13 @@ body {
 #site_header nav .container ul li {
   margin: 10px;
   height: 100%;
-  border-bottom: 4px solid transparent;
+  border-bottom: 5px solid transparent;
 }
 #site_header nav .container ul li a {
   font-weight: bold;
 }
 #site_header nav .container ul li:hover {
-  border-bottom: 4px solid #0282f9;
+  border-bottom: 5px solid #0282f9;
 }
 #site_header nav .container .nav_search {
   border-bottom: 2px solid #0282f9;

@@ -213,8 +213,8 @@ return [
                     "Joëlle Jones"
                 ],
             ],
-    ],
-    'navlinks' => [
+    ]
+    /* 'navlinks' => [
             'characters',
             'comics',
             'movies',
@@ -225,5 +225,5 @@ return [
             'fans',
             'news',
             'shop'
-    ]
+    ] */
 ];

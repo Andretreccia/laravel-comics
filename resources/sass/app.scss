@@ -21,12 +21,12 @@ body{
                 li{
                     margin: 10px;
                     height: 100%;
-                    border-bottom: 4px solid transparent;
+                    border-bottom: 5px solid transparent;
                     a{
                         font-weight: bold;
                     }
                     &:hover{
-                        border-bottom: 4px solid $color_primary;
+                        border-bottom: 5px solid $color_primary;
                     }
                 }
             }
@@ -136,10 +136,11 @@ body{
               color:#959595;
               &:hover{
                 color: white;
+                
               }
             }
             }
-  
+   ;
           }
         }
       }

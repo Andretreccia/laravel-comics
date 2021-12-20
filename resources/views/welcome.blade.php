@@ -7,12 +7,14 @@
 </div>
 <div class="container text-center">
     <div class="row py-5">
-        @foreach($comics as $comic)
+        @foreach($comics as $key => $comic)
         <div class="col-2">
-            <div class="card text-center">
-                <img src="{{$comic['thumb']}}" alt="" class="m-auto">
-                <h4 class="text-uppercase">{{$comic['series']}}</h4>
-            </div>
+            <a href="{{route('comic', ['id' => $key])}}">
+                <div class="card text-center">
+                    <img src="{{$comic['thumb']}}" alt="" class="m-auto">
+                    <h4 class="text-uppercase">{{$comic['series']}}</h4>
+                </div>
+            </a>
         </div>
         @endforeach
     </div>

@@ -45,7 +45,7 @@
             </ul>
             <div class="nav_search">
                 <input type="text" placeholder="Search">
-                Q
+                <i class="fas fa-search"></i>
             </div>
         </div>
     </nav>
